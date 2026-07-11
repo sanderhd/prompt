@@ -8,6 +8,8 @@ export default function Home() {
         <div>
             <Hero />
 
+            <div className="mx-auto grid w-full max-w-7xl border border-border" />
+
             <WhatIsThis />
         </div>
     )

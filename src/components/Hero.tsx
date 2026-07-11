@@ -4,6 +4,7 @@ import { useRouter } from "next/navigation";
 import { ArrowRightIcon } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import TerminalPreview from "./Terminal";
 
 export default function Hero() {
     const router = useRouter();
@@ -56,11 +57,7 @@ export default function Hero() {
                     </div>
                 </div>
 
-                <div className="flex h-100 items-center justify-center rounded-2xl border border-border bg-card shadow-sm">
-                    <div className="text-center text-muted-foreground">
-                        <p>Terminal (WIP)</p>
-                    </div>
-                </div>
+                <TerminalPreview />
             </div>
         </section>
     )
